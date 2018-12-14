@@ -1,4 +1,4 @@
-FROM lwl12/lfs-php
+FROM metowolf/php:latest-fpm-alpine
 
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \
